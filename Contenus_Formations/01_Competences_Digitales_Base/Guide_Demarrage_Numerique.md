@@ -391,4 +391,4 @@
 *Ce guide est votre compagnon pour débuter sereinement dans le monde numérique. Gardez-le à portée de main et n'hésitez pas à le consulter régulièrement !*
 
 **Version 1.0 - Mars 2024**  
-**© IADMA - Institut Africain de Développement du Management et de l'Administration**
+**© IADMA -Institut Africain du Digital et des Métiers d’Avenir**
