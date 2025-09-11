@@ -6,10 +6,11 @@
 ## 📋 Informations Générales
 
 **Durée totale :** 8 semaines (40 heures)  
-**Format :** 100% en ligne  
+**Format :** 100% en ligne - Self-paced course  
 **Niveau :** Débutant à Intermédiaire  
 **Certification :** Certificat IADMA en UI/UX Design  
-**Note :** 4.8/5 ⭐⭐⭐⭐⭐
+**Note :** 4.8/5 ⭐⭐⭐⭐⭐  
+**Total exercices :** 38 tâches pratiques
 
 ---
 
@@ -27,44 +28,64 @@
 
 ## 📚 Structure du Cours
 
-### Module 1 : Figma Fundamentals (6 leçons)
-**Durée :** 1 semaine | **Objectif :** Learn the tools
+### Module 1 : Figma Fundamentals (9 topics)
+**Durée :** 2 semaines | **Objectif :** Learn the tools | **Format :** Self-paced course
 
-#### Leçon 1.1 : Introduction à Figma
-- Installation et configuration de Figma
-- Interface utilisateur et navigation
-- Différence entre Figma gratuit et payant
-- Configuration de l'espace de travail
+#### Topic 1 : Groups, Frames and Sections (4 tâches)
+- **Tâche 1.1** : Créer et organiser des groupes d'éléments
+- **Tâche 1.2** : Maîtriser les frames et leurs propriétés
+- **Tâche 1.3** : Utiliser les sections pour structurer le design
+- **Tâche 1.4** : Exercice pratique - Organiser une maquette mobile
 
-#### Leçon 1.2 : Outils de base
-- Formes géométriques et outils de dessin
-- Texte et typographie
-- Images et icônes
-- Couleurs et dégradés
+#### Topic 2 : Layouts (5 tâches)
+- **Tâche 2.1** : Comprendre Auto Layout et ses propriétés
+- **Tâche 2.2** : Créer des grilles et guides personnalisés
+- **Tâche 2.3** : Maîtriser les contraintes et le responsive
+- **Tâche 2.4** : Alignement et distribution d'éléments
+- **Tâche 2.5** : Projet - Interface responsive complète
 
-#### Leçon 1.3 : Calques et organisation
-- Gestion des calques
-- Groupes et frames
-- Nommage et organisation
-- Bibliothèques de composants
+#### Topic 3 : Texts (2 tâches)
+- **Tâche 3.1** : Typographie et styles de texte
+- **Tâche 3.2** : Hiérarchie typographique et lisibilité
 
-#### Leçon 1.4 : Alignement et espacement
-- Grilles et guides
-- Auto Layout
-- Contraintes et responsive design
-- Espacement cohérent
+#### Topic 4 : Images (3 tâches)
+- **Tâche 4.1** : Importer et optimiser les images
+- **Tâche 4.2** : Recadrage et ajustements d'images
+- **Tâche 4.3** : Effets et filtres sur images
 
-#### Leçon 1.5 : Composants et variants
-- Création de composants
-- Variants et propriétés
-- États des composants (hover, active, disabled)
-- Bibliothèque de design system
+#### Topic 5 : Masks (5 tâches)
+- **Tâche 5.1** : Comprendre les masques et leur utilisation
+- **Tâche 5.2** : Masques de forme géométrique
+- **Tâche 5.3** : Masques d'image et de texte
+- **Tâche 5.4** : Masques complexes et compositions
+- **Tâche 5.5** : Projet - Créer des effets visuels avec masques
 
-#### Leçon 1.6 : Collaboration et partage
-- Partage de fichiers
-- Commentaires et feedback
-- Versions et historique
-- Handoff développeur
+#### Topic 6 : Components (6 tâches)
+- **Tâche 6.1** : Créer des composants de base
+- **Tâche 6.2** : Variants et propriétés de composants
+- **Tâche 6.3** : États des composants (hover, active, disabled)
+- **Tâche 6.4** : Bibliothèque de composants partagés
+- **Tâche 6.5** : Nested components et architecture
+- **Tâche 6.6** : Design system complet avec composants
+
+#### Topic 7 : Prototyping (7 tâches)
+- **Tâche 7.1** : Créer des liens et transitions de base
+- **Tâche 7.2** : Animations et micro-interactions
+- **Tâche 7.3** : Overlays et modales interactives
+- **Tâche 7.4** : Navigation complexe et user flows
+- **Tâche 7.5** : Prototypage mobile avec gestes
+- **Tâche 7.6** : Tests utilisateur avec prototypes
+- **Tâche 7.7** : Projet - Application mobile interactive complète
+
+#### Topic 8 : FigJam (4 tâches)
+- **Tâche 8.1** : Introduction à FigJam pour la collaboration
+- **Tâche 8.2** : Brainstorming et idéation visuelle
+- **Tâche 8.3** : User journey mapping dans FigJam
+- **Tâche 8.4** : Workshops design et facilitation
+
+#### Topic 9 : Share and Collaborate (2 tâches)
+- **Tâche 9.1** : Partage de fichiers et permissions
+- **Tâche 9.2** : Commentaires, feedback et handoff développeur
 
 **Projet pratique :** Créer une page d'accueil simple avec composants réutilisables
 

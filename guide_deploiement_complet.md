@@ -24,14 +24,52 @@ Votre projet IADMA est maintenant **complet et prêt à être lancé**. Tous les
 
 #### Hébergement et Domaine
 ```bash
-# 1. Acheter le domaine
-Domain: iadma.com ou iadma.org
-Registrar: Namecheap, GoDaddy, ou OVH
+# 1. Domaine existant
+Domain: Karbon-fix.com (déjà acquis via GoDaddy)
+IP actuelle: 76.76.21.21 (hébergé sur Vercel)
+SSL: ✅ Certificat HTTPS actif
+Configuration: Migrer vers nouvel hébergement IADMA
 
 # 2. Configurer l'hébergement
 Provider: DigitalOcean, AWS, ou OVH Cloud
 Server: 4GB RAM, 80GB SSD minimum
 OS: Ubuntu 20.04 LTS
+```
+
+#### Configuration DNS GoDaddy
+```bash
+# Étapes dans le panneau GoDaddy :
+# 1. Se connecter à GoDaddy.com
+# 2. Aller dans "Mes produits" > "DNS"
+# 3. Cliquer sur "Gérer" pour Karbon-fix.com
+
+# Enregistrements DNS à configurer :
+Type: A Record
+Nom: @
+Valeur: [IP du serveur d'hébergement]
+TTL: 1 heure
+
+Type: A Record  
+Nom: www
+Valeur: [IP du serveur d'hébergement]
+TTL: 1 heure
+
+Type: CNAME
+Nom: formation
+Valeur: Karbon-fix.com
+TTL: 1 heure
+
+Type: CNAME
+Nom: api
+Valeur: Karbon-fix.com
+TTL: 1 heure
+
+# Pour les emails (optionnel)
+Type: MX Record
+Nom: @
+Valeur: [serveur email]
+Priorité: 10
+TTL: 1 heure
 ```
 
 #### Installation Moodle
