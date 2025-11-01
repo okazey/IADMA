@@ -1,0 +1,351 @@
+etape 1: avoir une histoire bien pensée (scripte et narration tradition orale)
+etape 2: utiliser chatgpt pour bien formater ton histoire
+etape 3: generer des images avec google image fx
+etape 4: https://lmarena.ai/ (pour utiliser nano banana et autres gratuitement et legalement)
+etape 5: creer tous les plans du storyboarding
+etape 6: renommer les images de 0 x 
+etape 7: corriger manuellement les images
+
+
+source : https://www.youtube.com/watch?v=3Sg9318Mhk0
+
+====================================
+Version détaillée du pipeline (film 3D IA à partir d’une seule image)
+====================================
+
+Prérequis
+- Comptes/outils: Google ImageFX, LM Arena (pour Nano Banana), éditeur d’images (Design/Photoshop), moteurs vidéo (ex: V3, Kling/Clink), Adobe Premiere Pro (ou équivalent), banque audio (YouTube Audio Library, Envato Elements).
+- Organisation: Dossiers par étape, convention de nommage séquentiel (000, 001, …), sauvegardes régulières.
+
+Étape 1 — Histoire solide (storytelling)
+- Entrée: Idée originale, références culturelles, tradition orale.
+- Outils: Papier/notes; éventuellement ChatGPT pour brainstorming (sans générer l’histoire).
+- Sortie: Synopsis + trame en 3 actes + personnages + conflits clés.
+- Bonnes pratiques: Rester spécifique au contexte; viser une cohérence thématique; éviter les clichés génériques d’histoires IA.
+
+Étape 2 — Mise en forme du script (avec ChatGPT)
+- Entrée: Histoire brute (synopsis + scènes majeures + dialogues bruts).
+- Outil: ChatGPT (formatage seulement).
+- Sortie: Script formaté (scènes, descriptions, dialogues), liste des plans préliminaire.
+- Tips: Indiquer le ton, le style visuel, la durée cible, les contraintes de continuité.
+
+Étape 3 — Générer l’image “mère” (Google ImageFX)
+- Entrée: Description visuelle du monde, style (ex: 3D/pixel-style), personnages et décor.
+- Outil: Google ImageFX.
+- Action: Générer plusieurs variantes et sélectionner la meilleure (composition, lisibilité, potentiel d’angles).
+- Sortie: 1 image “mère” haute qualité.
+
+Étape 4 — Générations en cascade (Nano Banana via LM Arena)
+- Accès: https://lmarena.ai/ (usage légal/gratuit à visée recherche; attention à la confidentialité des créations).
+- Principe clé: Toujours repartir d’une image qui CONTIENT déjà l’information visuelle du plan cible.
+  - Ex: pour un gros plan visage, repartir d’une image où le visage est visible.
+  - Conserver la disposition spatiale des éléments (continuité gauche/droite, avant/arrière-plan).
+- Boucle de travail:
+  1) Importer l’image “mère” → générer plan A (ex: homme à gauche qui creuse, femme au fond qui cultive).
+  2) Télécharger le plan A → le réimporter → générer plan B (ex: close-up cohérent) si A contient l’info voulue.
+  3) Répéter pour bâtir une “cascade” d’angles à partir d’images successives.
+- Sortie: Série d’images cohérentes couvrant vos plans.
+
+Étape 5 — Storyboard et liste des plans
+- Entrée: Script formaté + images générées.
+- Outils: Tableur ou outil de storyboard.
+- Action: Associer chaque ligne de script à 1+ visuels; noter type de plan (large, moyen, close-up), mouvement implicite.
+- Sortie: Feuille de route visuelle pour le montage.
+
+Étape 6 — Organisation des fichiers
+- Action: Écrémer les images inutiles; classer en dossiers (01_raw, 02_selects, 03_fixed, 04_video, 05_audio, 06_edit).
+- Nommage: 000, 001, 002, … pour lecture diaporama séquentielle de l’histoire.
+- Sortie: Dossier propre prêt pour corrections et vidéo.
+
+Étape 7 — Corrections manuelles (Design/Photoshop)
+- Cas typiques: Collier manquant, bandeau incohérent, détails d’accessoires.
+- Outils: Design (site), Photoshop ou équivalents; composition de plusieurs images si nécessaire.
+- Sortie: Série d’images “fixées” visuellement cohérentes.
+
+Étape 8 — Génération vidéo (multi-moteurs)
+- Outils: V3 (forces: personnages parlants/sons), Kling/Clink (autres plans difficiles).
+- Stratégie: Aucun outil n’est parfait partout; choisir selon forces/faiblesses par plan.
+- Astuce: Générer aussi des plans “silencieux” pour cutaways et couverture au montage.
+- Sortie: Clips vidéo correspondant aux plans listés.
+
+Étape 9 — Voix: ADR (réenregistrement manuel)
+- Problème: Inconstance des voix IA (timbre, accents, ajout de musique non désirée).
+- Solution: Réenregistrer toutes les répliques (ADR) en calant le rythme labial/tempo.
+- Sortie: Pistes voix propres et cohérentes.
+
+Étape 10 — Musique et SFX
+- Sources: YouTube Audio Library (gratuit), Envato Elements (payant, avec licences).
+- Action: Sélection musicale par ambiance/scène; SFX contextuels; archivage des licences.
+- Sortie: Dossier audio organisé (VO, SFX, musique).
+
+Étape 11 — Montage (Adobe Premiere Pro ou équivalent)
+- Action: Importer images/vidéos/audio; monter selon storyboard; utiliser cutaways; mixer les pistes (dialogues en priorité, SFX, musique en dessous).
+- Contrôles: Rythme, lisibilité, continuité spatiale; normalisation audio; exports d’essai.
+- Sortie: Master export (ex: 4K/1080p, codec adapté à votre plateforme).
+
+Étape 12 — Contrôle qualité et livraison
+- QA: Repérer incohérences restantes; deux passes minimum (image puis son).
+- Livraison: Fichier final + archiver assets (images, prompts, projets, licences).
+
+Notes et considérations
+- LM Arena: plateforme de recherche; vos créations peuvent être partagées avec des devs (sensibilité/confidentialité à évaluer).
+- Sauvegardes: Versionner par date/étape; conserver prompts et réglages.
+
+Checklist rapide
+- Histoire validée et script formaté.
+- Image “mère” sélectionnée (ImageFX).
+- Série d’images cohérentes générées en cascade (Nano Banana).
+- Fichiers triés/renommés séquentiellement.
+- Corrections manuelles effectuées (Design/Photoshop).
+- Clips vidéo générés (multi-moteurs) + plans silencieux.
+- ADR voix réenregistrées + SFX + musique avec licences.
+- Montage final contrôlé (image/son) et export master.
+
+Pièges à éviter
+- Tenter un nouvel angle à partir d’une image qui ne contient pas l’info visuelle requise.
+- Dépendre d’un seul moteur vidéo pour tous les plans.
+- Compter sur des voix IA fully consistantes.
+- Négliger le renommage séquentiel et la structure de dossiers.
+- Oublier de générer des plans de coupe (cutaways) pour le montage.
+
+====================================
+ANNEXES PRATIQUES
+====================================
+
+ANNEXE A — Exemples de prompts
+
+1. Prompt ImageFX (image "mère")
+   "3D Pixar-style animation, African village scene at sunset, warm lighting, 
+   two characters: man on left digging soil with traditional tool, woman on right 
+   farming in background, lush vegetation, earthy tones, cinematic composition, 
+   detailed textures, wide shot"
+
+2. Prompts Nano Banana (cascade d'angles)
+   
+   Plan A (depuis image mère):
+   "The man on the left is bending down and digging the soil, 
+   the woman on the right continues farming in the background, 
+   maintain spatial arrangement and lighting"
+   
+   Plan B (close-up homme, depuis Plan A):
+   "Close-up shot of the man's face as he digs, 
+   focused expression, sweat on forehead, warm sunset lighting, 
+   maintain 3D Pixar style and character consistency"
+   
+   Plan C (plan moyen femme, depuis image mère):
+   "Medium shot of the woman farming in the background, 
+   gentle movement, looking toward the man, 
+   keep background elements visible"
+   
+   Plan D (insert objet trouvé, depuis Plan A):
+   "Extreme close-up of the mysterious glowing object in the soil, 
+   hands reaching toward it, magical lighting emanating from object"
+
+3. Prompts corrections (Design/Photoshop)
+   "Add traditional necklace to character's neck, matching style from reference image"
+   "Transfer decorative headband from reference to this portrait, maintain consistency"
+
+ANNEXE B — Structure de dossiers recommandée
+
+MON_PROJET_FILM_IA/
+│
+├── 00_PREPRODUCTION/
+│   ├── story_draft.txt
+│   ├── script_formatted.pdf
+│   └── references/
+│
+├── 01_IMAGES_RAW/
+│   ├── imageFX_generations/
+│   └── nanoBanana_exports/
+│
+├── 02_IMAGES_SELECTS/
+│   ├── 000_wide_village.png
+│   ├── 001_man_digging.png
+│   ├── 002_closeup_face.png
+│   └── ...
+│
+├── 03_IMAGES_FIXED/
+│   ├── 000_wide_village_FIXED.png
+│   ├── 001_man_digging_FIXED.png
+│   └── ...
+│
+├── 04_VIDEO_GENERATIONS/
+│   ├── vidu_exports/
+│   ├── kling_exports/
+│   └── selected_clips/
+│
+├── 05_AUDIO/
+│   ├── ADR/
+│   │   ├── character1_lines.wav
+│   │   └── character2_lines.wav
+│   ├── SFX/
+│   │   ├── footsteps.wav
+│   │   └── ambient_village.wav
+│   ├── MUSIC/
+│   │   ├── theme_main.mp3
+│   │   └── tension_cue.mp3
+│   └── LICENSES/
+│
+├── 06_EDIT/
+│   ├── project_premiere.prproj
+│   ├── exports_draft/
+│   └── exports_final/
+│
+├── 07_DELIVERY/
+│   ├── FINAL_MASTER_v1.mp4
+│   └── archive/
+│
+└── DOCS/
+    ├── storyboard.xlsx
+    ├── prompts_log.txt
+    ├── shot_list.csv
+    └── continuity_notes.txt
+
+ANNEXE C — Paramètres techniques recommandés
+
+Images (génération)
+- Résolution: 1024x1024 minimum (ImageFX), 1920x1080 idéal pour Nano Banana
+- Format: PNG (préserver qualité)
+- Ratio: 16:9 pour vidéo finale, adapter selon plans
+
+Vidéo (génération)
+- Durée: 3-5 secondes par clip (moteurs IA)
+- FPS: 24 ou 30 fps
+- Résolution: 1080p minimum, 4K si disponible
+- Format sortie: MP4 ou MOV
+
+Montage (Premiere Pro)
+- Séquence: 1920x1080 @ 24fps (cinéma) ou 30fps (web)
+- Codec preview: ProRes 422 (Mac) ou DNxHD (PC)
+- Export final: H.264, bitrate 10-20 Mbps (YouTube/Vimeo)
+
+Audio
+- Sample rate: 48kHz (standard vidéo)
+- Bit depth: 24-bit
+- Format de travail: WAV (non compressé)
+- Export final: AAC 320kbps ou 256kbps
+- Niveaux: -14 LUFS (YouTube), -16 LUFS (broadcast)
+- Mixage: Dialogues à -12dB peak, musique à -18dB, SFX selon besoin
+
+ANNEXE D — Guide ADR (réenregistrement voix)
+
+Matériel minimum
+- Micro USB correct (Blue Yeti, Rode NT-USB, Shure MV7) ou smartphone avec app d'enregistrement
+- Casque fermé (monitoring sans fuite)
+- Espace calme (couvertures pour amortir réverbération)
+- Interface audio (optionnel mais recommandé)
+
+Workflow ADR
+1. Exporter le clip vidéo avec timecode visible
+2. Lire le clip en boucle pour mémoriser timing/émotion
+3. Enregistrer 3-5 prises par réplique
+4. Nommer: "SCENE_02_PERSO1_LIGNE_03_TAKE_01.wav"
+5. Sélectionner meilleure prise ou comper (combiner plusieurs)
+6. Nettoyer (retirer bruits, normaliser, léger EQ si besoin)
+7. Importer dans Premiere et caler frame par frame
+
+Astuces
+- Parler légèrement plus fort que la vidéo (compression ajustera)
+- Respecter le rythme respiratoire du personnage
+- Imiter mouvement labial visible
+- Enregistrer "room tone" (silence d'ambiance) 30 secondes pour combler trous
+
+ANNEXE E — Comparatif moteurs vidéo IA
+
+| Moteur      | Forces                              | Faiblesses                       | Cas d'usage                  |
+|-------------|-------------------------------------|----------------------------------|------------------------------|
+| Vidu V3     | Personnages parlants, audio intégré | Voix inconsistante, musique imposée | Dialogues, plans fixes       |
+| Kling       | Mouvements complexes, cohérence     | Temps de génération long         | Plans d'action, travellings  |
+| Runway Gen-3| Généraliste, contrôle fin           | Crédits payants                  | Variété de plans             |
+| Pika Labs   | Effets FX, transformations          | Personnages moins bons           | Plans abstraits, transitions |
+| Luma Dream  | Fluidité, slow-motion               | Moins de contrôle                | Plans esthétiques, nature    |
+
+Recommandation: Combiner 2-3 moteurs selon les plans.
+
+ANNEXE F — Ressources et liens utiles
+
+Outils IA
+- Google ImageFX: https://aitestkitchen.withgoogle.com/tools/image-fx
+- LM Arena (Nano Banana gratuit): https://lmarena.ai/
+- Vidu: https://vidu.studio/
+- Kling AI: https://klingai.com/
+- Runway: https://runwayml.com/
+
+Correction d'images
+- Design.com (site web avec IA)
+- Photopea (gratuit, clone Photoshop): https://www.photopea.com/
+- GIMP (gratuit): https://www.gimp.org/
+
+Audio
+- YouTube Audio Library: https://studio.youtube.com/ > Audio Library
+- Freesound (SFX): https://freesound.org/
+- Envato Elements (payant): https://elements.envato.com/
+- Audacity (édition audio gratuite): https://www.audacityteam.org/
+
+Montage vidéo
+- DaVinci Resolve (gratuit, pro): https://www.blackmagicdesign.com/
+- CapCut Desktop (gratuit, simple): https://www.capcut.com/
+- Adobe Premiere Pro (payant, industrie)
+
+Storyboard
+- Notion, Trello, Excel (simple)
+- Storyboarder (gratuit): https://wonderunit.com/storyboarder/
+- Canva (templates storyboard)
+
+ANNEXE G — Troubleshooting
+
+Problème: Nano Banana génère des personnages différents
+→ Solution: Toujours partir d'une image contenant DÉJÀ le personnage; être très précis sur "maintain character consistency" dans prompt.
+
+Problème: Plans vidéo saccadés ou flous
+→ Solution: Régénérer avec prompt plus simple; éviter trop de mouvement; utiliser un autre moteur.
+
+Problème: Voix ADR ne sync pas
+→ Solution: Utiliser fonction "slip" dans Premiere; ajuster speed 98-102% si nécessaire; revoir prononciation.
+
+Problème: Incohérences visuelles (vêtements, accessoires)
+→ Solution: Noter tous les éléments visuels dans doc de continuité; faire corrections manuelles batch; utiliser Design pour transfert d'éléments.
+
+Problème: Exports trop lourds
+→ Solution: Utiliser H.264 avec bitrate adapté (10 Mbps pour 1080p suffit); compresser avec Handbrake si besoin.
+
+Problème: Audio crépite ou sature
+→ Solution: Enregistrer ADR avec gain plus bas (-12dB headroom); normaliser après nettoyage; utiliser limiteur en master.
+
+ANNEXE H — Estimations temps et budget
+
+Temps indicatif (pour 5 min de film)
+- Histoire et script: 5-10 heures
+- Génération image mère: 1-2 heures
+- Générations cascade (50-100 images): 10-20 heures
+- Organisation et corrections: 5-10 heures
+- Générations vidéo (30-50 clips): 15-30 heures (attente génération)
+- ADR et audio: 8-15 heures
+- Montage et finalisation: 10-20 heures
+TOTAL: 54-107 heures sur 2-4 semaines
+
+Budget indicatif
+- Gratuit: Google ImageFX, LM Arena, YouTube Audio Library, DaVinci Resolve, Audacity
+  → Total: 0€ (possible mais laborieux)
+  
+- Semi-pro: + Envato Elements (16€/mois), crédits Runway/Kling (50€), micro USB (80€)
+  → Total: ~150€
+  
+- Pro: + Adobe CC (60€/mois), micro studio (200€), crédits IA étendus (200€)
+  → Total: ~500€
+
+Astuce: Commencer gratuit; investir selon qualité voulue et monétisation prévue.
+
+ANNEXE I — Gabarit storyboard (CSV)
+
+Shot#,Scene,Type,Description,Duration,Image_File,Video_File,Audio_Notes,Status
+001,01,Wide,Village at sunset,5s,001_village.png,001_village.mp4,Ambient sounds,Done
+002,01,Medium,Man digging,4s,002_digging.png,002_digging.mp4,Digging SFX,In progress
+003,01,Close-up,Man's surprised face,3s,003_face.png,003_face.mp4,ADR: "What is this?",Pending
+...
+
+→ À adapter dans Excel/Google Sheets avec colonnes supplémentaires selon besoin.
+
+====================================
+FIN DU DOCUMENT
+====================================
