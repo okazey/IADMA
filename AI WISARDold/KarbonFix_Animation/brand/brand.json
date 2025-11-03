@@ -1,0 +1,17 @@
+{
+  "name": "KarbonFix",
+  "tagline": "l’essence du digital",
+  "colors": {
+    "primary_blue": "#2F80FF",
+    "black": "#0A0A0B",
+    "white": "#FFFFFF"
+  },
+  "3d": {
+    "style": "A",
+    "logo_outline": "keep",
+    "glass_emission_strength": 0.4
+  },
+  "format": "1080x1920",
+  "fps": 30,
+  "reveal": "morph"
+}
